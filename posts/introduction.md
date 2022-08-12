@@ -1,6 +1,6 @@
 ---
 title: Introduction
-published: false
+published: true
 description: Introduction to my blog
 tags: intro
 cover_image: ./assets/matrix-header.jpg
