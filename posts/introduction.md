@@ -5,6 +5,7 @@ description: Introduction to my blog
 tags: intro
 cover_image: ./assets/matrix-header.jpg
 id: 1165813
+date: '2022-08-12T10:08:38Z'
 ---
 
 Hello, I'm starting this blog to keep track of my progress.
