@@ -8,13 +8,13 @@ id: 1187980
 ---
 
 
-[Subdotnet](https://github.com/boulix3/subdotnet) 
+[Sub.Net](https://github.com/subdotnet)
 
 _Custom avalanche subnet VMs written in C#_
 
 ## How it all started
 
-This project was originaly my submission for the Avalanche Summit Hackathon in Barcelona.
+[This project](https://github.com/boulix3/subdotnet) was originaly my submission for the Avalanche Summit Hackathon in Barcelona.
 It was a simple proof of concept showing a dotnet app implementing the [avalanche vm](https://github.com/ava-labs/avalanchego/blob/master/proto/vm/vm.proto) interface and running as an avalanche subnet.
 
 
