@@ -14,25 +14,13 @@ _Custom avalanche subnet VMs written in C#_
 
 ## How it all started
 
-This project was my submission for the Avalanche Summit Hackathon in Barcelona.
-My goal was to implement a simple blockchain subnet. 
+This project was originaly my submission for the Avalanche Summit Hackathon in Barcelona.
+It was a simple proof of concept showing a dotnet app implementing the [avalanche vm](https://github.com/ava-labs/avalanchego/blob/master/proto/vm/vm.proto) interface and running as an avalanche subnet.
 
-Unfortunately my project was incomplete. 
-
-Here is what I managed to implement :  
-- go-plugin c# implementation
-- vm.proto empty-shell implementation (writes logs only)
-- scripts to : publish subdotnet as a binary, and 
-
-But most of all, during the hackathon I learned : 
-- to read and understand golang
-- about [avalanchego](https://github.com/ava-labs/avalanchego) internals
-- how to run nodes locally using [avalanche-network-runner](https://github.com/ava-labs/avalanche-network-runner)
-- how to register and run a custom subnet
 
 ## Where it's going
 
-It will be easy for any .net developper to create a custom blockchain.
+The goal is to make it as easy as possible for any .net developper to create a custom blockchain.
 
 The [github organisation](https://github.com/subdotnet) will contain at least two projects : 
 - [sub.net](https://github.com/subdotnet/sub.net) Nuget package 
