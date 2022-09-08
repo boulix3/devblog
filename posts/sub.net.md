@@ -1,10 +1,10 @@
 ---
-title: Subdotnet
+title: subdotnet
 published: false
-description: Part 1
+description: sub.net - Part 1
 tags: 'subdotnet,avalanche,blockchain'
 cover_image: ./assets/subdotnet-header.png
-id: 1185239
+id: 1187979
 ---
 
 
