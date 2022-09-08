@@ -1,6 +1,6 @@
 ---
 title: subdotnet
-published: false
+published: true
 description: sub.net - Part 1
 tags: 'subdotnet,avalanche,blockchain'
 cover_image: ./assets/subdotnet-header-small.png
