@@ -1,19 +1,18 @@
 ---
-title: SubDotNet
+title: Subdotnet
 published: false
-description: Getting started
-tags: subdotnet avalanche blockchain avalanche-subnet
+description: Part 1
+tags: 'subdotnet,avalanche,blockchain'
 cover_image: ./assets/subdotnet-header.png
+id: 1185239
 ---
 
 
 [Subdotnet](https://github.com/boulix3/subdotnet) 
 
-_A Custom avalanche subnet VM written in C#_
+_Custom avalanche subnet VMs written in C#_
 
 ## How it all started
-
-![sumit](./assets/avalanche_summit.jpg)
 
 This project was my submission for the Avalanche Summit Hackathon in Barcelona.
 My goal was to implement a simple blockchain subnet. 
@@ -33,7 +32,8 @@ But most of all, during the hackathon I learned :
 
 ## Where it's going
 
-Provide a set of tooling simple way to create a subnet with custom rules built-in the blockchain.
-- Nuget package
-- Command line interface as a dotnet-tool 
-- Developpement environment specifications
+It will be easy for any .net developper to create a custom blockchain.
+
+The [github organisation](https://github.com/subdotnet) will contain at least two projects : 
+- [sub.net](https://github.com/subdotnet/sub.net) Nuget package 
+- [sdn](https://github.com/subdotnet/subdotnet-cli) Command line interface published as a [dotnet-tool](https://www.nuget.org/packages/sdn/)
