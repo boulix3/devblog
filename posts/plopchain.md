@@ -4,7 +4,7 @@ published: true
 description: minimum metamask json-rpc api server
 tags: 'metamask,ethereum,blockchain,subdotnet'
 cover_image: ./assets/plop.jpg
-id: 1206742
+id: 1206740
 ---
 
 # Metamask compatible json-rpc server
