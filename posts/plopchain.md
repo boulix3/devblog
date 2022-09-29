@@ -34,7 +34,7 @@ git clone https://github.com/subdotnet/metamask-mini-api.git
 
 The public keys end with "_BADx_".
 
-_intall metamask and import prefunded dev addresses :_
+_Install metamask and import prefunded dev addresses :_
 ![configure metamask wallet](./assets/metamask-walletconfig.gif)
 
 2) Run the project
@@ -50,6 +50,6 @@ Add new network with the folowing values :
 
 You should have 42 PLOP in your _BAD1_ wallet and 1337 PLOP in your _BAD2_.
 
-_Configure custom network in metamask and transfer funds:_
+_Configure custom network in metamask and transfer funds :_
 ![configure metamask wallet](./assets/metamask-networkconfig.gif)
 
