@@ -1,9 +1,10 @@
 ---
-title: subdotnet
-published: false
+title: plopchain
+published: true
 description: minimum metamask json-rpc api server
 tags: 'metamask,ethereum,blockchain,subdotnet'
 cover_image: ./assets/plop.jpg
+id: 1206742
 ---
 
 # Metamask compatible json-rpc server
@@ -13,18 +14,18 @@ This project is a proof of concept - It implements the minimum required ethereum
 This will be included in sub.net library.
 
 ## Prerequisites : 
-You need [dotnet 7 sdk](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) to build the project
+- [dotnet 7 sdk](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) to build the project
 
-Metamask extension depending on your browser :
-- [chrome web store](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
-- [firefox addons](https://addons.mozilla.org/fr/firefox/addon/ether-metamask/)
+- Metamask extension depending on your browser :
+    - [chrome web store](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+    - [firefox addons](https://addons.mozilla.org/fr/firefox/addon/ether-metamask/)
 
-Clone the [metamask-mini-api repository](https://github.com/subdotnet/)
+Clone the subdotnet/metamask-mini-api repository
 ```bash
 git clone https://github.com/subdotnet/metamask-mini-api.git
 ```
 
-## How to try the demo : 
+## Run the demo : 
 
 1) The simple blockchain has 2 prefunded wallets. You can import these private keys in metamask : 
 - 616b28bfaa49973faf243ec3296a01675c742533f06c325c78f3d63ceef67963  
@@ -40,16 +41,16 @@ _intall metamask and import prefunded dev addresses :_
 2) Run the project
 Inside the cloned repository, simply execute `dotnet run` and you should have this output in the console : `json-rpc api listening on http://localhost:5035`
 
-3) Configure _localplop_ network in metamask
+3) Configure _localPLOP_ network in metamask
 Open metamasks settings and go to the network tab.
 Add new network with the folowing values :
-- name : localplop
+- name : localPLOP
 - RPC Url : http://localhost:5035/
 - Chain id : 12345
 - Currency symbol : PLOP
 
-You should have 42 PLOP in your _BAD1_ wallet 1337 in your _BAD2_.
+You should have 42 PLOP in your _BAD1_ wallet and 1337 PLOP in your _BAD2_.
 
 _Configure custom network in metamask and transfer funds:_
-![configure metamask wallet](./assets/metamask-walletconfig.gif)
+![configure metamask wallet](./assets/metamask-networkconfig.gif)
 
