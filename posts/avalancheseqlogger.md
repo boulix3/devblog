@@ -4,6 +4,8 @@ published: true
 description: AvalancheGo - Seq logging sink
 tags: 'subdotnet,avalanche,blockchain'
 cover_image: ./assets/subdotnet-header-small.png
+id: 1212474
+date: '2022-10-06T09:05:07Z'
 ---
 
 # avalancheseqlogger
